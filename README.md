@@ -64,10 +64,14 @@ The model uses the following features:
 CreditWise_Loan_Prediction_System
 │
 ├── app.py                # Streamlit application
-├── model.pkl             # Trained machine learning model
+├── model.pkl             # Trained ML model
+├── model_columns.pkl     # Saved feature columns used by model
+├── scaler.pkl            # Feature scaling object
+├── ohe.pkl               # One-Hot Encoder for categorical features
 ├── requirements.txt      # Python dependencies
-├── runtime.txt           # Python runtime version
-├── README.md             # Project documentation
+├── runtime.txt           # Python version for deployment
+├── LICENSE               # Project license
+└── README.md             # Project documentation
 ```
 
 ---
